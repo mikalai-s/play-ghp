@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { doSomethingWrong } from './work';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={doSomethingWrong}>Throw Error</button>
       </header>
     </div>
   );
